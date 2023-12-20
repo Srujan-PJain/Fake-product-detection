@@ -1,0 +1,64 @@
+
+.sup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .sup-inner-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* Change to your preferred background color */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+.sup-form-1,
+.sup-form-2 {
+  flex: 1;
+  padding: 10px;
+}
+
+.sup-form-1 input[type="number"],
+.sup-form-2 input[type="text"],
+.sup-form-1 input[type="file"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+
+.verify-btn,
+.add-sup-details {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: #3498db;
+  color: #fff;
+}
+
+.verify-btn:hover,
+.add-sup-details:hover {
+  background-color: #2980b9;
+}
+  
+  .sup-form-1 label[for="sup-qr"] {
+    background-color: #3498db; 
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+  }
+  
+  .sup-form-1 label[for="sup-qr"]:hover {
+    background-color: #2980b9; 
+  }
+  
+  
